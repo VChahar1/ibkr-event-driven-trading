@@ -1,0 +1,52 @@
+
+topics:
+  md_ticks:           {name: md.ticks,           partitions: 3, retention_ms: 604800000,  durable: false}
+  orders_intents:     {name: orders.intents,     partitions: 3, retention_ms: -1,         durable: true}
+  orders_events:      {name: orders.events,      partitions: 3, retention_ms: -1,         durable: true}
+  fills:              {name: fills,              partitions: 3, retention_ms: -1,         durable: true}
+  positions_snapshot: {name: positions.snapshot, partitions: 1, retention_ms: -1,         durable: true}
+  alerts:             {name: alerts,             partitions: 1, retention_ms: 2592000000, durable: true}
+
+caps:
+  max_order_notional_usd: 5000
+  max_gross_notional_usd: 25000
+  max_position_notional_usd: 5000
+  max_orders_per_day: 24
+
+heartbeats:
+  interval_s: 1
+  ttl_s: 5
+  md_max_tick_age_s: 30
+
+adapter:
+  market_data_type: 3
+  base_watchlist: [SPY]
+  max_market_data_lines: 90
+  request_timeout_s: 20
+  reconnect_delays_s: [15, 30, 60]
+  snapshot_interval_s: 60
+  intent_max_age_s: 300
+  max_clock_skew_s: 30
+  stop_file: STOP
+
+reconciler:
+  interval_minutes: 5
+  settle_s: 5
+  max_snapshot_age_s: 180
+
+strategy:
+  name: stocks
+  mode: dry
+  run_times_ny: ["10:30", "15:00"]
+  state_dir: state_eventbot
+  price_wait_s: 30
+  snapshot_max_age_s: 180
+  fill_wait_margin_s: 30
+
+recorder:
+  out_dir: data/parquet
+  flush_records: 1000
+  flush_seconds: 5
+
+logging:
+  dir: logs/eventbot

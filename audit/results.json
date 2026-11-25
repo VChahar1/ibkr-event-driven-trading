@@ -1,0 +1,1675 @@
+{
+  "meta": {
+    "run": "2026-10-03T13:58:50",
+    "stock_start": "2007-06-01",
+    "stock_data_end": "2026-10-02",
+    "etf_data": [
+      "2007-05-30",
+      "2026-10-02"
+    ]
+  },
+  "data": {
+    "stocks": {
+      "rows": 5220,
+      "columns": 102,
+      "start": "2006-01-03",
+      "end": "2026-10-02",
+      "sorted": true,
+      "unique": true,
+      "tz": "None",
+      "interior_nan_cells": 0,
+      "trailing_nan_columns": [],
+      "leading_nan_columns": 18,
+      "n_moves_gt_20pct": 189,
+      "moves_gt_20pct": [
+        {
+          "symbol": "C",
+          "date": "2009-02-27",
+          "move": -0.3902,
+          "prev": 17.9817,
+          "close": 10.9645
+        },
+        {
+          "symbol": "TMUS",
+          "date": "2011-08-02",
+          "move": -0.3659,
+          "prev": 25.4928,
+          "close": 16.1654
+        },
+        {
+          "symbol": "NFLX",
+          "date": "2022-04-20",
+          "move": -0.3512,
+          "prev": 34.861,
+          "close": 22.619
+        },
+        {
+          "symbol": "NFLX",
+          "date": "2011-10-25",
+          "move": -0.349,
+          "prev": 1.6977,
+          "close": 1.1053
+        },
+        {
+          "symbol": "NVDA",
+          "date": "2008-07-03",
+          "move": -0.3073,
+          "prev": 0.4123,
+          "close": 0.2856
+        },
+        {
+          "symbol": "TMUS",
+          "date": "2009-08-06",
+          "move": -0.2916,
+          "prev": 19.9941,
+          "close": 14.1644
+        },
+        {
+          "symbol": "BAC",
+          "date": "2009-01-20",
+          "move": -0.2897,
+          "prev": 5.4544,
+          "close": 3.8743
+        },
+        {
+          "symbol": "PANW",
+          "date": "2024-02-21",
+          "move": -0.2844,
+          "prev": 183.045,
+          "close": 130.985
+        },
+        {
+          "symbol": "BNY",
+          "date": "2008-09-29",
+          "move": -0.2716,
+          "prev": 24.1397,
+          "close": 17.5839
+        },
+        {
+          "symbol": "C",
+          "date": "2008-11-20",
+          "move": -0.2641,
+          "prev": 46.6705,
+          "close": 34.3466
+        },
+        {
+          "symbol": "META",
+          "date": "2022-02-03",
+          "move": -0.2639,
+          "prev": 319.9358,
+          "close": 235.5044
+        },
+        {
+          "symbol": "BAC",
+          "date": "2008-10-07",
+          "move": -0.2623,
+          "prev": 23.9313,
+          "close": 17.655
+        },
+        {
+          "symbol": "INTC",
+          "date": "2024-08-02",
+          "move": -0.2606,
+          "prev": 28.8669,
+          "close": 21.3446
+        },
+        {
+          "symbol": "MS",
+          "date": "2008-10-09",
+          "move": -0.2589,
+          "prev": 11.3156,
+          "close": 8.3856
+        },
+        {
+          "symbol": "BAC",
+          "date": "2009-02-27",
+          "move": -0.2575,
+          "prev": 4.0414,
+          "close": 3.0007
+        },
+        {
+          "symbol": "IBM",
+          "date": "2026-07-14",
+          "move": -0.2521,
+          "prev": 288.1629,
+          "close": 215.5239
+        },
+        {
+          "symbol": "COF",
+          "date": "2009-04-20",
+          "move": -0.2504,
+          "prev": 13.7678,
+          "close": 10.32
+        },
+        {
+          "symbol": "NFLX",
+          "date": "2012-07-25",
+          "move": -0.2502,
+          "prev": 1.1484,
+          "close": 0.8611
+        },
+        {
+          "symbol": "MS",
+          "date": "2008-10-07",
+          "move": -0.2489,
+          "prev": 15.8283,
+          "close": 11.8881
+        },
+        {
+          "symbol": "COP",
+          "date": "2020-03-09",
+          "move": -0.2484,
+          "prev": 35.8666,
+          "close": 26.9573
+        },
+        {
+          "symbol": "LOW",
+          "date": "2020-03-16",
+          "move": -0.2477,
+          "prev": 85.5356,
+          "close": 64.3489
+        },
+        {
+          "symbol": "META",
+          "date": "2022-10-27",
+          "move": -0.2456,
+          "prev": 128.5884,
+          "close": 97.0109
+        },
+        {
+          "symbol": "BAC",
+          "date": "2009-04-20",
+          "move": -0.2434,
+          "prev": 8.0745,
+          "close": 6.1092
+        },
+        {
+          "symbol": "ANET",
+          "date": "2019-11-01",
+          "move": -0.2423,
+          "prev": 15.2856,
+          "close": 11.5813
+        },
+        {
+          "symbol": "AMD",
+          "date": "2017-05-02",
+          "move": -0.2423,
+          "prev": 13.62,
+          "close": 10.32
+        },
+        {
+          "symbol": "MS",
+          "date": "2008-09-17",
+          "move": -0.2422,
+          "prev": 19.3307,
+          "close": 14.6496
+        },
+        {
+          "symbol": "PANW",
+          "date": "2017-03-01",
+          "move": -0.2415,
+          "prev": 25.3167,
+          "close": 19.2017
+        },
+        {
+          "symbol": "COF",
+          "date": "2020-03-16",
+          "move": -0.2387,
+          "prev": 65.1981,
+          "close": 49.6325
+        },
+        {
+          "symbol": "BA",
+          "date": "2020-03-16",
+          "move": -0.2385,
+          "prev": 170.2,
+          "close": 129.61
+        },
+        {
+          "symbol": "WFC",
+          "date": "2009-01-20",
+          "move": -0.2382,
+          "prev": 11.8338,
+          "close": 9.0147
+        },
+        {
+          "symbol": "NFLX",
+          "date": "2008-04-22",
+          "move": -0.237,
+          "prev": 0.5617,
+          "close": 0.4286
+        },
+        {
+          "symbol": "C",
+          "date": "2008-11-19",
+          "move": -0.2344,
+          "prev": 60.9634,
+          "close": 46.6705
+        },
+        {
+          "symbol": "C",
+          "date": "2009-01-14",
+          "move": -0.2322,
+          "prev": 43.0244,
+          "close": 33.034
+        },
+        {
+          "symbol": "MS",
+          "date": "2008-12-01",
+          "move": -0.2305,
+          "prev": 10.0586,
+          "close": 7.74
+        },
+        {
+          "symbol": "TMUS",
+          "date": "2007-11-09",
+          "move": -0.226,
+          "prev": 32.772,
+          "close": 25.3668
+        },
+        {
+          "symbol": "UNH",
+          "date": "2025-04-17",
+          "move": -0.2238,
+          "prev": 562.3015,
+          "close": 436.4604
+        },
+        {
+          "symbol": "ANET",
+          "date": "2025-01-27",
+          "move": -0.2235,
+          "prev": 129.17,
+          "close": 100.3
+        },
+        {
+          "symbol": "C",
+          "date": "2009-02-20",
+          "move": -0.2231,
+          "prev": 18.3472,
+          "close": 14.2538
+        },
+        {
+          "symbol": "MS",
+          "date": "2008-10-10",
+          "move": -0.2225,
+          "prev": 8.3856,
+          "close": 6.5199
+        },
+        {
+          "symbol": "C",
+          "date": "2008-12-01",
+          "move": -0.222,
+          "prev": 60.4529,
+          "close": 47.0352
+        },
+        {
+          "symbol": "CVX",
+          "date": "2020-03-18",
+          "move": -0.2212,
+          "prev": 53.2374,
+          "close": 41.4587
+        },
+        {
+          "symbol": "AMZN",
+          "date": "2006-07-26",
+          "move": -0.2182,
+          "prev": 1.6795,
+          "close": 1.313
+        },
+        {
+          "symbol": "NFLX",
+          "date": "2022-01-21",
+          "move": -0.2179,
+          "prev": 50.825,
+          "close": 39.75
+        },
+        {
+          "symbol": "DELL",
+          "date": "2018-12-24",
+          "move": -0.2164,
+          "prev": 26.19,
+          "close": 20.5227
+        },
+        {
+          "symbol": "UBER",
+          "date": "2020-03-18",
+          "move": -0.2163,
+          "prev": 18.91,
+          "close": 14.82
+        },
+        {
+          "symbol": "GEV",
+          "date": "2025-01-27",
+          "move": -0.2152,
+          "prev": 419.0353,
+          "close": 328.8584
+        },
+        {
+          "symbol": "FDX",
+          "date": "2022-09-16",
+          "move": -0.214,
+          "prev": 151.9446,
+          "close": 119.4226
+        },
+        {
+          "symbol": "BAC",
+          "date": "2008-09-15",
+          "move": -0.2131,
+          "prev": 25.0602,
+          "close": 19.7199
+        },
+        {
+          "symbol": "PLTR",
+          "date": "2022-05-09",
+          "move": -0.2131,
+          "prev": 9.48,
+          "close": 7.46
+        },
+        {
+          "symbol": "SNDK",
+          "date": "2025-04-04",
+          "move": -0.213,
+          "prev": 38.26,
+          "close": 30.11
+        },
+        {
+          "symbol": "COF",
+          "date": "2008-12-01",
+          "move": -0.2116,
+          "prev": 25.8402,
+          "close": 20.3732
+        },
+        {
+          "symbol": "TSLA",
+          "date": "2020-09-08",
+          "move": -0.2106,
+          "prev": 139.44,
+          "close": 110.07
+        },
+        {
+          "symbol": "NFLX",
+          "date": "2006-07-25",
+          "move": -0.2096,
+          "prev": 0.3394,
+          "close": 0.2683
+        },
+        {
+          "symbol": "BAC",
+          "date": "2008-12-01",
+          "move": -0.2092,
+          "prev": 12.0696,
+          "close": 9.5443
+        },
+        {
+          "symbol": "JPM",
+          "date": "2009-01-20",
+          "move": -0.2073,
+          "prev": 14.9082,
+          "close": 11.8181
+        },
+        {
+          "symbol": "AMAT",
+          "date": "2020-03-16",
+          "move": -0.2036,
+          "prev": 48.0661,
+          "close": 38.281
+        },
+        {
+          "symbol": "SNDK",
+          "date": "2025-11-20",
+          "move": -0.2033,
+          "prev": 245.96,
+          "close": 195.96
+        },
+        {
+          "symbol": "BAC",
+          "date": "2011-08-08",
+          "move": -0.2032,
+          "prev": 6.265,
+          "close": 4.9921
+        },
+        {
+          "symbol": "COF",
+          "date": "2009-03-30",
+          "move": -0.2024,
+          "prev": 10.9756,
+          "close": 8.7543
+        },
+        {
+          "symbol": "TMUS",
+          "date": "2007-08-03",
+          "move": -0.2014,
+          "prev": 61.479,
+          "close": 49.0949
+        }
+      ],
+      "misaligned_rows": 0
+    },
+    "etf_proxies": {
+      "rows": 4868,
+      "columns": 5,
+      "start": "2007-05-30",
+      "end": "2026-10-02",
+      "sorted": true,
+      "unique": true,
+      "tz": "None",
+      "interior_nan_cells": 0,
+      "trailing_nan_columns": [],
+      "leading_nan_columns": 0,
+      "n_moves_gt_20pct": 2,
+      "moves_gt_20pct": [
+        {
+          "symbol": "EIMI",
+          "date": "2008-10-28",
+          "move": 0.2093,
+          "prev": 13.2356,
+          "close": 16.0062
+        },
+        {
+          "symbol": "EIMI",
+          "date": "2008-10-13",
+          "move": 0.2277,
+          "prev": 16.836,
+          "close": 20.6695
+        }
+      ],
+      "misaligned_rows": 0
+    },
+    "ibkr_crosscheck": [
+      {
+        "symbol": "C",
+        "date": "2009-02-27",
+        "move": -0.3902,
+        "prev": 17.9817,
+        "close": 10.9645,
+        "ibkr_move": null
+      },
+      {
+        "symbol": "TMUS",
+        "date": "2011-08-02",
+        "move": -0.3659,
+        "prev": 25.4928,
+        "close": 16.1654,
+        "ibkr_move": -0.3659
+      },
+      {
+        "symbol": "NFLX",
+        "date": "2022-04-20",
+        "move": -0.3512,
+        "prev": 34.861,
+        "close": 22.619,
+        "ibkr_move": -0.3512
+      },
+      {
+        "symbol": "NFLX",
+        "date": "2011-10-25",
+        "move": -0.349,
+        "prev": 1.6977,
+        "close": 1.1053,
+        "ibkr_move": -0.3489
+      },
+      {
+        "symbol": "NVDA",
+        "date": "2008-07-03",
+        "move": -0.3073,
+        "prev": 0.4123,
+        "close": 0.2856,
+        "ibkr_move": -0.3073
+      },
+      {
+        "symbol": "TMUS",
+        "date": "2009-08-06",
+        "move": -0.2916,
+        "prev": 19.9941,
+        "close": 14.1644,
+        "ibkr_move": -0.2907
+      },
+      {
+        "symbol": "BAC",
+        "date": "2009-01-20",
+        "move": -0.2897,
+        "prev": 5.4544,
+        "close": 3.8743,
+        "ibkr_move": -0.2897
+      },
+      {
+        "symbol": "PANW",
+        "date": "2024-02-21",
+        "move": -0.2844,
+        "prev": 183.045,
+        "close": 130.985,
+        "ibkr_move": -0.2844
+      },
+      {
+        "symbol": "BNY",
+        "date": "2008-09-29",
+        "move": -0.2716,
+        "prev": 24.1397,
+        "close": 17.5839,
+        "ibkr_move": -0.2716
+      },
+      {
+        "symbol": "C",
+        "date": "2008-11-20",
+        "move": -0.2641,
+        "prev": 46.6705,
+        "close": 34.3466,
+        "ibkr_move": null
+      },
+      {
+        "symbol": "META",
+        "date": "2022-02-03",
+        "move": -0.2639,
+        "prev": 319.9358,
+        "close": 235.5044,
+        "ibkr_move": -0.2639
+      },
+      {
+        "symbol": "BAC",
+        "date": "2008-10-07",
+        "move": -0.2623,
+        "prev": 23.9313,
+        "close": 17.655,
+        "ibkr_move": -0.2623
+      },
+      {
+        "symbol": "INTC",
+        "date": "2024-08-02",
+        "move": -0.2606,
+        "prev": 28.8669,
+        "close": 21.3446,
+        "ibkr_move": -0.2606
+      },
+      {
+        "symbol": "MS",
+        "date": "2008-10-09",
+        "move": -0.2589,
+        "prev": 11.3156,
+        "close": 8.3856,
+        "ibkr_move": -0.2589
+      },
+      {
+        "symbol": "BAC",
+        "date": "2009-02-27",
+        "move": -0.2575,
+        "prev": 4.0414,
+        "close": 3.0007,
+        "ibkr_move": -0.2575
+      },
+      {
+        "symbol": "IBM",
+        "date": "2026-07-14",
+        "move": -0.2521,
+        "prev": 288.1629,
+        "close": 215.5239,
+        "ibkr_move": -0.2521
+      },
+      {
+        "symbol": "COF",
+        "date": "2009-04-20",
+        "move": -0.2504,
+        "prev": 13.7678,
+        "close": 10.32,
+        "ibkr_move": -0.2504
+      },
+      {
+        "symbol": "NFLX",
+        "date": "2012-07-25",
+        "move": -0.2502,
+        "prev": 1.1484,
+        "close": 0.8611,
+        "ibkr_move": -0.2502
+      },
+      {
+        "symbol": "MS",
+        "date": "2008-10-07",
+        "move": -0.2489,
+        "prev": 15.8283,
+        "close": 11.8881,
+        "ibkr_move": -0.2489
+      },
+      {
+        "symbol": "COP",
+        "date": "2020-03-09",
+        "move": -0.2484,
+        "prev": 35.8666,
+        "close": 26.9573,
+        "ibkr_move": -0.2484
+      },
+      {
+        "symbol": "LOW",
+        "date": "2020-03-16",
+        "move": -0.2477,
+        "prev": 85.5356,
+        "close": 64.3489,
+        "ibkr_move": -0.2477
+      },
+      {
+        "symbol": "META",
+        "date": "2022-10-27",
+        "move": -0.2456,
+        "prev": 128.5884,
+        "close": 97.0109,
+        "ibkr_move": -0.2456
+      },
+      {
+        "symbol": "BAC",
+        "date": "2009-04-20",
+        "move": -0.2434,
+        "prev": 8.0745,
+        "close": 6.1092,
+        "ibkr_move": -0.2434
+      },
+      {
+        "symbol": "ANET",
+        "date": "2019-11-01",
+        "move": -0.2423,
+        "prev": 15.2856,
+        "close": 11.5813,
+        "ibkr_move": -0.2423
+      },
+      {
+        "symbol": "AMD",
+        "date": "2017-05-02",
+        "move": -0.2423,
+        "prev": 13.62,
+        "close": 10.32,
+        "ibkr_move": -0.2423
+      },
+      {
+        "symbol": "MS",
+        "date": "2008-09-17",
+        "move": -0.2422,
+        "prev": 19.3307,
+        "close": 14.6496,
+        "ibkr_move": -0.2422
+      },
+      {
+        "symbol": "PANW",
+        "date": "2017-03-01",
+        "move": -0.2415,
+        "prev": 25.3167,
+        "close": 19.2017,
+        "ibkr_move": -0.2415
+      },
+      {
+        "symbol": "COF",
+        "date": "2020-03-16",
+        "move": -0.2387,
+        "prev": 65.1981,
+        "close": 49.6325,
+        "ibkr_move": -0.2387
+      },
+      {
+        "symbol": "BA",
+        "date": "2020-03-16",
+        "move": -0.2385,
+        "prev": 170.2,
+        "close": 129.61,
+        "ibkr_move": -0.2385
+      },
+      {
+        "symbol": "WFC",
+        "date": "2009-01-20",
+        "move": -0.2382,
+        "prev": 11.8338,
+        "close": 9.0147,
+        "ibkr_move": -0.2382
+      },
+      {
+        "symbol": "NFLX",
+        "date": "2008-04-22",
+        "move": -0.237,
+        "prev": 0.5617,
+        "close": 0.4286,
+        "ibkr_move": -0.237
+      },
+      {
+        "symbol": "C",
+        "date": "2008-11-19",
+        "move": -0.2344,
+        "prev": 60.9634,
+        "close": 46.6705,
+        "ibkr_move": null
+      },
+      {
+        "symbol": "C",
+        "date": "2009-01-14",
+        "move": -0.2322,
+        "prev": 43.0244,
+        "close": 33.034,
+        "ibkr_move": null
+      },
+      {
+        "symbol": "MS",
+        "date": "2008-12-01",
+        "move": -0.2305,
+        "prev": 10.0586,
+        "close": 7.74,
+        "ibkr_move": -0.2305
+      },
+      {
+        "symbol": "TMUS",
+        "date": "2007-11-09",
+        "move": -0.226,
+        "prev": 32.772,
+        "close": 25.3668,
+        "ibkr_move": -0.2269
+      },
+      {
+        "symbol": "UNH",
+        "date": "2025-04-17",
+        "move": -0.2238,
+        "prev": 562.3015,
+        "close": 436.4604,
+        "ibkr_move": -0.2238
+      },
+      {
+        "symbol": "ANET",
+        "date": "2025-01-27",
+        "move": -0.2235,
+        "prev": 129.17,
+        "close": 100.3,
+        "ibkr_move": -0.2235
+      },
+      {
+        "symbol": "C",
+        "date": "2009-02-20",
+        "move": -0.2231,
+        "prev": 18.3472,
+        "close": 14.2538,
+        "ibkr_move": null
+      },
+      {
+        "symbol": "MS",
+        "date": "2008-10-10",
+        "move": -0.2225,
+        "prev": 8.3856,
+        "close": 6.5199,
+        "ibkr_move": -0.2225
+      },
+      {
+        "symbol": "C",
+        "date": "2008-12-01",
+        "move": -0.222,
+        "prev": 60.4529,
+        "close": 47.0352,
+        "ibkr_move": null
+      },
+      {
+        "symbol": "CVX",
+        "date": "2020-03-18",
+        "move": -0.2212,
+        "prev": 53.2374,
+        "close": 41.4587,
+        "ibkr_move": -0.2212
+      },
+      {
+        "symbol": "AMZN",
+        "date": "2006-07-26",
+        "move": -0.2182,
+        "prev": 1.6795,
+        "close": 1.313,
+        "ibkr_move": null
+      },
+      {
+        "symbol": "NFLX",
+        "date": "2022-01-21",
+        "move": -0.2179,
+        "prev": 50.825,
+        "close": 39.75,
+        "ibkr_move": -0.2179
+      },
+      {
+        "symbol": "DELL",
+        "date": "2018-12-24",
+        "move": -0.2164,
+        "prev": 26.19,
+        "close": 20.5227,
+        "ibkr_move": -0.0174
+      },
+      {
+        "symbol": "UBER",
+        "date": "2020-03-18",
+        "move": -0.2163,
+        "prev": 18.91,
+        "close": 14.82,
+        "ibkr_move": -0.2163
+      },
+      {
+        "symbol": "GEV",
+        "date": "2025-01-27",
+        "move": -0.2152,
+        "prev": 419.0353,
+        "close": 328.8584,
+        "ibkr_move": -0.2152
+      },
+      {
+        "symbol": "FDX",
+        "date": "2022-09-16",
+        "move": -0.214,
+        "prev": 151.9446,
+        "close": 119.4226,
+        "ibkr_move": -0.214
+      },
+      {
+        "symbol": "BAC",
+        "date": "2008-09-15",
+        "move": -0.2131,
+        "prev": 25.0602,
+        "close": 19.7199,
+        "ibkr_move": -0.2131
+      },
+      {
+        "symbol": "PLTR",
+        "date": "2022-05-09",
+        "move": -0.2131,
+        "prev": 9.48,
+        "close": 7.46,
+        "ibkr_move": -0.2131
+      },
+      {
+        "symbol": "SNDK",
+        "date": "2025-04-04",
+        "move": -0.213,
+        "prev": 38.26,
+        "close": 30.11,
+        "ibkr_move": -0.213
+      },
+      {
+        "symbol": "COF",
+        "date": "2008-12-01",
+        "move": -0.2116,
+        "prev": 25.8402,
+        "close": 20.3732,
+        "ibkr_move": -0.2116
+      },
+      {
+        "symbol": "TSLA",
+        "date": "2020-09-08",
+        "move": -0.2106,
+        "prev": 139.44,
+        "close": 110.07,
+        "ibkr_move": -0.2106
+      },
+      {
+        "symbol": "NFLX",
+        "date": "2006-07-25",
+        "move": -0.2096,
+        "prev": 0.3394,
+        "close": 0.2683,
+        "ibkr_move": null
+      },
+      {
+        "symbol": "BAC",
+        "date": "2008-12-01",
+        "move": -0.2092,
+        "prev": 12.0696,
+        "close": 9.5443,
+        "ibkr_move": -0.2092
+      },
+      {
+        "symbol": "JPM",
+        "date": "2009-01-20",
+        "move": -0.2073,
+        "prev": 14.9082,
+        "close": 11.8181,
+        "ibkr_move": -0.2073
+      },
+      {
+        "symbol": "AMAT",
+        "date": "2020-03-16",
+        "move": -0.2036,
+        "prev": 48.0661,
+        "close": 38.281,
+        "ibkr_move": -0.2036
+      },
+      {
+        "symbol": "SNDK",
+        "date": "2025-11-20",
+        "move": -0.2033,
+        "prev": 245.96,
+        "close": 195.96,
+        "ibkr_move": -0.2033
+      },
+      {
+        "symbol": "BAC",
+        "date": "2011-08-08",
+        "move": -0.2032,
+        "prev": 6.265,
+        "close": 4.9921,
+        "ibkr_move": -0.2032
+      },
+      {
+        "symbol": "COF",
+        "date": "2009-03-30",
+        "move": -0.2024,
+        "prev": 10.9756,
+        "close": 8.7543,
+        "ibkr_move": -0.2024
+      },
+      {
+        "symbol": "TMUS",
+        "date": "2007-08-03",
+        "move": -0.2014,
+        "prev": 61.479,
+        "close": 49.0949,
+        "ibkr_move": -0.2014
+      }
+    ]
+  },
+  "base": {
+    "momentum": {
+      "CAGR": 0.2561,
+      "Volatility": 0.2278,
+      "Sharpe": 1.0542,
+      "Sortino": 1.517,
+      "Max drawdown": -0.3092,
+      "Calmar": 0.8281
+    },
+    "equal_weight": {
+      "CAGR": 0.1628,
+      "Volatility": 0.1959,
+      "Sharpe": 0.7949,
+      "Sortino": 1.1296,
+      "Max drawdown": -0.4715,
+      "Calmar": 0.3452
+    },
+    "spy": {
+      "CAGR": 0.1071,
+      "Volatility": 0.1969,
+      "Sharpe": 0.5432,
+      "Sortino": 0.7653,
+      "Max drawdown": -0.5519,
+      "Calmar": 0.1941
+    },
+    "etf_dual_momentum": {
+      "CAGR": 0.0738,
+      "Volatility": 0.1205,
+      "Sharpe": 0.5452,
+      "Sortino": 0.7484,
+      "Max drawdown": -0.1823,
+      "Calmar": 0.4048
+    }
+  },
+  "scratch_copies_identical": {
+    "stock_engine_lag1": true,
+    "etf_engine_lag0": true
+  },
+  "lookahead": {
+    "stock_truncation": [
+      {
+        "t": "2008-05-19",
+        "max_abs_diff": 0.0,
+        "first_diff": null
+      },
+      {
+        "t": "2010-04-23",
+        "max_abs_diff": 0.0,
+        "first_diff": null
+      },
+      {
+        "t": "2013-03-19",
+        "max_abs_diff": 0.0,
+        "first_diff": null
+      },
+      {
+        "t": "2016-02-10",
+        "max_abs_diff": 0.0,
+        "first_diff": null
+      },
+      {
+        "t": "2019-01-04",
+        "max_abs_diff": 0.0,
+        "first_diff": null
+      },
+      {
+        "t": "2021-11-24",
+        "max_abs_diff": 0.0,
+        "first_diff": null
+      },
+      {
+        "t": "2024-10-22",
+        "max_abs_diff": 0.0,
+        "first_diff": null
+      },
+      {
+        "t": "2026-05-13",
+        "max_abs_diff": 0.0,
+        "first_diff": null
+      }
+    ],
+    "stock_perturbation": [
+      {
+        "t": "2010-04-23",
+        "max_abs_diff": 0.0,
+        "first_diff": null
+      },
+      {
+        "t": "2016-02-10",
+        "max_abs_diff": 0.0,
+        "first_diff": null
+      },
+      {
+        "t": "2021-11-24",
+        "max_abs_diff": 0.0,
+        "first_diff": null
+      },
+      {
+        "t": "2026-05-13",
+        "max_abs_diff": 0.0,
+        "first_diff": null
+      }
+    ],
+    "etf_truncation": [
+      {
+        "t": "2010-03-30",
+        "max_abs_diff": 0.0
+      },
+      {
+        "t": "2014-10-27",
+        "max_abs_diff": 0.0
+      },
+      {
+        "t": "2019-05-30",
+        "max_abs_diff": 0.0
+      },
+      {
+        "t": "2023-12-27",
+        "max_abs_diff": 0.0
+      },
+      {
+        "t": "2026-03-16",
+        "max_abs_diff": 0.0
+      }
+    ],
+    "etf_perturbation": [
+      {
+        "t": "2010-03-30",
+        "max_abs_diff": 0.0
+      },
+      {
+        "t": "2014-10-27",
+        "max_abs_diff": 0.0
+      },
+      {
+        "t": "2019-05-30",
+        "max_abs_diff": 0.0
+      },
+      {
+        "t": "2023-12-27",
+        "max_abs_diff": 0.0
+      },
+      {
+        "t": "2026-03-16",
+        "max_abs_diff": 0.0
+      }
+    ],
+    "prereg_synthetic": [
+      {
+        "t": 400,
+        "vol_target_trunc": 0.0,
+        "trend_trunc": 0.0,
+        "vol_target_perturb": 0.0,
+        "trend_perturb": 0.0
+      },
+      {
+        "t": 600,
+        "vol_target_trunc": 0.0,
+        "trend_trunc": 0.0,
+        "vol_target_perturb": 0.0,
+        "trend_perturb": 0.0
+      },
+      {
+        "t": 800,
+        "vol_target_trunc": 0.0,
+        "trend_trunc": 0.0,
+        "vol_target_perturb": 0.0,
+        "trend_perturb": 0.0
+      }
+    ]
+  },
+  "execution": {
+    "n_orders": 1964,
+    "n_buy": 1025,
+    "n_sell": 939,
+    "cost_on_both_sides": true,
+    "total_costs_usd": 14187.27,
+    "min_cash_weight": -0.008471,
+    "max_gross_exposure": 1.008471,
+    "max_single_weight": 0.1501,
+    "median_order_usd": 2257.38,
+    "max_order_usd": 217054.38,
+    "final_nav_usd": 2040752.12,
+    "etf_cost_formula_two_legs": "turnover = sum|target - drifted weights| (both legs); cost = turnover x bps"
+  },
+  "metrics": {
+    "stock_pipeline": {
+      "CAGR": 0.2561,
+      "Volatility": 0.2278,
+      "Sharpe": 1.0542,
+      "Sortino": 1.517,
+      "Max drawdown": -0.3092,
+      "Calmar": 0.8281
+    },
+    "stock_independent": {
+      "CAGR": 0.2561,
+      "Sharpe": 1.0542,
+      "Sortino": 1.517,
+      "Max drawdown": -0.3092,
+      "Calmar": 0.8281
+    },
+    "stock_abs_diff": {
+      "CAGR": 0.0,
+      "Sharpe": 0.0,
+      "Sortino": 0.0,
+      "Max drawdown": 0.0,
+      "Calmar": 0.0
+    },
+    "etf_pipeline": {
+      "CAGR": 0.0738,
+      "Volatility": 0.1205,
+      "Sharpe": 0.5452,
+      "Sortino": 0.7484,
+      "Max drawdown": -0.1823,
+      "Calmar": 0.4048
+    },
+    "etf_independent": {
+      "CAGR": 0.0738,
+      "Sharpe": 0.5452,
+      "Sortino": 0.7484,
+      "Max drawdown": -0.1823,
+      "Calmar": 0.4048
+    },
+    "etf_abs_diff": {
+      "CAGR": 0.0,
+      "Sharpe": 0.0,
+      "Sortino": 0.0,
+      "Max drawdown": 0.0,
+      "Calmar": 0.0
+    },
+    "annualization": 252
+  },
+  "sanity": {
+    "stock_always_long_spy_vs_bh_max_abs_diff": 4.085620730620576e-14,
+    "stock_zero_position_nav_range": 0.0,
+    "etf_always_long_vs_bh_max_abs_diff": 0.0,
+    "etf_zero_position_max_abs_return": 0.0,
+    "random_stock": {
+      "always_in_gross": {
+        "mean": 0.751,
+        "std": 0.08,
+        "p05": 0.63,
+        "p95": 0.87,
+        "max": 0.904
+      },
+      "always_in_net": {
+        "mean": 0.668,
+        "std": 0.081,
+        "p05": 0.544,
+        "p95": 0.788,
+        "max": 0.821
+      },
+      "filter_gross": {
+        "mean": 0.899,
+        "std": 0.091,
+        "p05": 0.777,
+        "p95": 1.055,
+        "max": 1.114
+      },
+      "filter_net": {
+        "mean": 0.806,
+        "std": 0.092,
+        "p05": 0.679,
+        "p95": 0.965,
+        "max": 1.022
+      }
+    },
+    "random_reference": {
+      "equal_weight_sharpe_net": 0.7949,
+      "momentum_sharpe_net": 1.0542,
+      "momentum_sharpe_gross": 1.0699
+    },
+    "random_etf": {
+      "gross": {
+        "mean": 0.488,
+        "std": 0.149
+      },
+      "net": {
+        "mean": -1.116,
+        "std": 0.146
+      }
+    },
+    "inverted_stock": {
+      "bottom10_same_filter": {
+        "CAGR": 0.1586,
+        "Volatility": 0.1844,
+        "Sharpe": 0.8157,
+        "Sortino": 1.2048,
+        "Max drawdown": -0.348,
+        "Calmar": 0.4557
+      },
+      "top10_inverted_filter": {
+        "CAGR": 0.0168,
+        "Volatility": 0.16,
+        "Sharpe": 0.0975,
+        "Sortino": 0.1362,
+        "Max drawdown": -0.5487,
+        "Calmar": 0.0307
+      },
+      "momentum_gross": {
+        "CAGR": 0.2605,
+        "Volatility": 0.2278,
+        "Sharpe": 1.0699,
+        "Sortino": 1.5409,
+        "Max drawdown": -0.3086,
+        "Calmar": 0.8441
+      },
+      "equal_weight_gross": {
+        "CAGR": 0.1654,
+        "Volatility": 0.1956,
+        "Sharpe": 0.8073,
+        "Sortino": 1.1476,
+        "Max drawdown": -0.4709,
+        "Calmar": 0.3512
+      }
+    },
+    "double_costs": {
+      "stock_base": {
+        "CAGR": 0.2561,
+        "Volatility": 0.2278,
+        "Sharpe": 1.0542,
+        "Sortino": 1.517,
+        "Max drawdown": -0.3092,
+        "Calmar": 0.8281
+      },
+      "stock_double": {
+        "CAGR": 0.2517,
+        "Volatility": 0.2279,
+        "Sharpe": 1.0385,
+        "Sortino": 1.4933,
+        "Max drawdown": -0.3098,
+        "Calmar": 0.8124
+      },
+      "stock_gross": {
+        "CAGR": 0.2605,
+        "Volatility": 0.2278,
+        "Sharpe": 1.0699,
+        "Sortino": 1.5409,
+        "Max drawdown": -0.3086,
+        "Calmar": 0.8441
+      },
+      "etf_10bps": {
+        "CAGR": 0.0738,
+        "Volatility": 0.1205,
+        "Sharpe": 0.5452,
+        "Sortino": 0.7484,
+        "Max drawdown": -0.1823,
+        "Calmar": 0.4048
+      },
+      "etf_20bps": {
+        "CAGR": 0.0626,
+        "Volatility": 0.1208,
+        "Sharpe": 0.4573,
+        "Sortino": 0.6253,
+        "Max drawdown": -0.2059,
+        "Calmar": 0.3041
+      }
+    },
+    "extra_lag": {
+      "stock_lag1_original": {
+        "CAGR": 0.2561,
+        "Volatility": 0.2278,
+        "Sharpe": 1.0542,
+        "Sortino": 1.517,
+        "Max drawdown": -0.3092,
+        "Calmar": 0.8281
+      },
+      "stock_lag2": {
+        "CAGR": 0.2568,
+        "Volatility": 0.2276,
+        "Sharpe": 1.0573,
+        "Sortino": 1.5226,
+        "Max drawdown": -0.3131,
+        "Calmar": 0.8201
+      },
+      "etf_lag1": {
+        "CAGR": 0.0677,
+        "Volatility": 0.1209,
+        "Sharpe": 0.497,
+        "Sortino": 0.6785,
+        "Max drawdown": -0.2251,
+        "Calmar": 0.301
+      },
+      "etf_lag2": {
+        "CAGR": 0.0737,
+        "Volatility": 0.1219,
+        "Sharpe": 0.5397,
+        "Sortino": 0.7431,
+        "Max drawdown": -0.2171,
+        "Calmar": 0.3396
+      },
+      "etf_lag0_original": {
+        "CAGR": 0.0738,
+        "Volatility": 0.1205,
+        "Sharpe": 0.5452,
+        "Sortino": 0.7484,
+        "Max drawdown": -0.1823,
+        "Calmar": 0.4048
+      }
+    }
+  },
+  "overfit": {
+    "subperiods": {
+      "2007-2016": {
+        "CAGR": 0.2145,
+        "Volatility": 0.1842,
+        "Sharpe": 1.1245,
+        "Sortino": 1.6198,
+        "Max drawdown": -0.2595,
+        "Calmar": 0.8265
+      },
+      "2017-2026": {
+        "CAGR": 0.2984,
+        "Volatility": 0.2639,
+        "Sharpe": 1.0335,
+        "Sortino": 1.4866,
+        "Max drawdown": -0.3092,
+        "Calmar": 0.9651
+      },
+      "ew_2007-2016": {
+        "CAGR": 0.13,
+        "Volatility": 0.2096,
+        "Sharpe": 0.6641,
+        "Sortino": 0.947,
+        "Max drawdown": -0.4715,
+        "Calmar": 0.2756
+      },
+      "ew_2017-2026": {
+        "CAGR": 0.196,
+        "Volatility": 0.1813,
+        "Sharpe": 0.9493,
+        "Sortino": 1.3433,
+        "Max drawdown": -0.3386,
+        "Calmar": 0.5789
+      }
+    },
+    "grid_start": "2007-06-01",
+    "grid_lookback_x_topn": [
+      {
+        "mom_lookback": 126,
+        "top_n": 5,
+        "Sharpe": 1.1755,
+        "CAGR": 0.3672,
+        "Max drawdown": -0.4281
+      },
+      {
+        "mom_lookback": 126,
+        "top_n": 10,
+        "Sharpe": 1.1403,
+        "CAGR": 0.2773,
+        "Max drawdown": -0.2503
+      },
+      {
+        "mom_lookback": 126,
+        "top_n": 15,
+        "Sharpe": 1.0752,
+        "CAGR": 0.2325,
+        "Max drawdown": -0.211
+      },
+      {
+        "mom_lookback": 126,
+        "top_n": 20,
+        "Sharpe": 1.1262,
+        "CAGR": 0.2257,
+        "Max drawdown": -0.2105
+      },
+      {
+        "mom_lookback": 189,
+        "top_n": 5,
+        "Sharpe": 1.1668,
+        "CAGR": 0.3655,
+        "Max drawdown": -0.4281
+      },
+      {
+        "mom_lookback": 189,
+        "top_n": 10,
+        "Sharpe": 1.0783,
+        "CAGR": 0.2669,
+        "Max drawdown": -0.2787
+      },
+      {
+        "mom_lookback": 189,
+        "top_n": 15,
+        "Sharpe": 1.0466,
+        "CAGR": 0.2255,
+        "Max drawdown": -0.2734
+      },
+      {
+        "mom_lookback": 189,
+        "top_n": 20,
+        "Sharpe": 1.0674,
+        "CAGR": 0.2125,
+        "Max drawdown": -0.2443
+      },
+      {
+        "mom_lookback": 252,
+        "top_n": 5,
+        "Sharpe": 1.1458,
+        "CAGR": 0.3479,
+        "Max drawdown": -0.3674
+      },
+      {
+        "mom_lookback": 252,
+        "top_n": 10,
+        "Sharpe": 1.0542,
+        "CAGR": 0.2561,
+        "Max drawdown": -0.3092
+      },
+      {
+        "mom_lookback": 252,
+        "top_n": 15,
+        "Sharpe": 1.0596,
+        "CAGR": 0.2282,
+        "Max drawdown": -0.2772
+      },
+      {
+        "mom_lookback": 252,
+        "top_n": 20,
+        "Sharpe": 1.0097,
+        "CAGR": 0.197,
+        "Max drawdown": -0.2527
+      },
+      {
+        "mom_lookback": 315,
+        "top_n": 5,
+        "Sharpe": 1.075,
+        "CAGR": 0.3094,
+        "Max drawdown": -0.3658
+      },
+      {
+        "mom_lookback": 315,
+        "top_n": 10,
+        "Sharpe": 1.0251,
+        "CAGR": 0.2402,
+        "Max drawdown": -0.323
+      },
+      {
+        "mom_lookback": 315,
+        "top_n": 15,
+        "Sharpe": 0.9567,
+        "CAGR": 0.1975,
+        "Max drawdown": -0.2908
+      },
+      {
+        "mom_lookback": 315,
+        "top_n": 20,
+        "Sharpe": 0.9237,
+        "CAGR": 0.1759,
+        "Max drawdown": -0.2626
+      }
+    ],
+    "one_dimensional": [
+      {
+        "param": "sma_window",
+        "value": 100,
+        "Sharpe": 0.9922,
+        "CAGR": 0.2344,
+        "Max drawdown": -0.3171
+      },
+      {
+        "param": "sma_window",
+        "value": 150,
+        "Sharpe": 0.9763,
+        "CAGR": 0.2301,
+        "Max drawdown": -0.3171
+      },
+      {
+        "param": "sma_window",
+        "value": 200,
+        "Sharpe": 1.0542,
+        "CAGR": 0.2561,
+        "Max drawdown": -0.3092
+      },
+      {
+        "param": "sma_window",
+        "value": 250,
+        "Sharpe": 0.9639,
+        "CAGR": 0.2444,
+        "Max drawdown": -0.3615
+      },
+      {
+        "param": "hold_rank",
+        "value": 10,
+        "Sharpe": 1.0275,
+        "CAGR": 0.2524,
+        "Max drawdown": -0.3171
+      },
+      {
+        "param": "hold_rank",
+        "value": 15,
+        "Sharpe": 1.008,
+        "CAGR": 0.2461,
+        "Max drawdown": -0.3069
+      },
+      {
+        "param": "hold_rank",
+        "value": 20,
+        "Sharpe": 1.0542,
+        "CAGR": 0.2561,
+        "Max drawdown": -0.3092
+      },
+      {
+        "param": "hold_rank",
+        "value": 30,
+        "Sharpe": 1.0437,
+        "CAGR": 0.2473,
+        "Max drawdown": -0.3144
+      },
+      {
+        "param": "hold_rank",
+        "value": 40,
+        "Sharpe": 1.0909,
+        "CAGR": 0.2556,
+        "Max drawdown": -0.3259
+      },
+      {
+        "param": "market_filter",
+        "value": "off",
+        "Sharpe": 0.9549,
+        "CAGR": 0.2746,
+        "Max drawdown": -0.5643
+      }
+    ],
+    "n_rebalances": 233,
+    "n_orders": 1964,
+    "etf_n_rebalances": 192,
+    "top_contributors": {
+      "NVDA": 0.4439,
+      "MU": 0.3851,
+      "AMD": 0.29,
+      "NFLX": 0.2557,
+      "AVGO": 0.2534,
+      "LRCX": 0.2359,
+      "TSLA": 0.2067,
+      "PLTR": 0.1899,
+      "META": 0.1585,
+      "BKNG": 0.1534
+    },
+    "top5_share_of_total_contribution": 0.3301,
+    "without_top5_contributors": {
+      "excluded": [
+        "NVDA",
+        "MU",
+        "AMD",
+        "NFLX",
+        "AVGO"
+      ],
+      "CAGR": 0.1858,
+      "Volatility": 0.1999,
+      "Sharpe": 0.8834,
+      "Sortino": 1.2654,
+      "Max drawdown": -0.2695,
+      "Calmar": 0.6895
+    },
+    "ew_without_top5": {
+      "CAGR": 0.1491,
+      "Volatility": 0.192,
+      "Sharpe": 0.7456,
+      "Sortino": 1.0597,
+      "Max drawdown": -0.4767,
+      "Calmar": 0.3128
+    },
+    "yearly": {
+      "2007": 0.3289,
+      "2008": -0.1284,
+      "2009": 0.3862,
+      "2010": 0.0892,
+      "2011": 0.02,
+      "2012": 0.1908,
+      "2013": 0.6475,
+      "2014": 0.3145,
+      "2015": 0.0737,
+      "2016": 0.3037,
+      "2017": 0.4395,
+      "2018": 0.0305,
+      "2019": 0.1758,
+      "2020": 0.4576,
+      "2021": 0.056,
+      "2022": -0.0834,
+      "2023": 0.3393,
+      "2024": 0.7317,
+      "2025": 0.0545,
+      "2026": 1.1066
+    },
+    "cagr_excluding_best_year": {
+      "best_year": 2026,
+      "CAGR": 0.2178
+    }
+  },
+  "visual": {
+    "plotted_final_nav": 2040750.0,
+    "backtest_final_nav": 2040752.12,
+    "plotted_vs_backtest_rel_diff": 1.0404973115329952e-06,
+    "plotted_max_dd": -0.309197,
+    "metric_max_dd": -0.3092,
+    "tile_cagr_pct": 25.6,
+    "metric_cagr_pct": 25.6,
+    "net_vs_gross_final_nav": {
+      "net": 2040752.12,
+      "gross": 2185153.57
+    }
+  },
+  "dell_fix": {
+    "original": {
+      "CAGR": 0.2561,
+      "Sharpe": 1.0542,
+      "Max drawdown": -0.3092
+    },
+    "dell_pre_listing_removed": {
+      "CAGR": 0.2561,
+      "Sharpe": 1.0546,
+      "Max drawdown": -0.3092
+    }
+  }
+}

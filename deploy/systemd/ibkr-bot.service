@@ -1,0 +1,13 @@
+[Unit]
+Description=IBKR daily paper bot run
+Wants=network-online.target
+After=network-online.target ibgateway.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=@BOT_DIR@
+# run_daily.sh picks dry/execute (DRYRUN file), logs to logs/daily_*.log, and emails
+# failures bot.py can't report itself. Secrets come from .env via python-dotenv.
+ExecStart=@BOT_DIR@/run_daily.sh
+# Connect retries (~2 min) + fill waits (2 x 120 s) fit well inside this.
+TimeoutStartSec=20min

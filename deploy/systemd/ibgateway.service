@@ -1,0 +1,18 @@
+[Unit]
+Description=IB Gateway (PAPER) kept logged in by IBC, on a virtual display
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+# IBC logs in with the credentials in ~/ibc/config.ini (chmod 600, never in git).
+# The Gateway force-logs-out weekly; IBC then exits and Restart= logs in again.
+# --mode=paper: IBC selects the paper login; the bot also refuses live ports.
+ExecStart=/usr/bin/xvfb-run -a --server-args="-screen 0 1024x768x24" \
+    %h/ibc/scripts/ibcstart.sh @GATEWAY_VERSION@ --gateway --mode=paper \
+    --tws-path=%h/Jts --ibc-path=%h/ibc --ibc-ini=%h/ibc/config.ini
+Restart=always
+RestartSec=60
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,61 @@
+[ib]
+host = "127.0.0.1"
+port = 4002
+client_id = 17
+connect_retry_delays_s = [15, 30, 60]
+account = ""
+allow_live = false
+
+[bot]
+strategy = "stocks"
+
+[risk]
+capital_usd = 25000
+max_order_usd = 5000
+min_trade_usd = 100
+max_orders_per_run = 24
+cash_buffer = 0.02
+max_data_age_days = 5
+max_price_gap = 0.05
+fill_timeout_s = 120
+
+[stocks]
+universe_file = "universe/sp100.csv"
+market = "SPY"
+top_n = 10
+hold_rank = 20
+mom_lookback = 252
+mom_skip = 21
+sma_window = 200
+exit_ratio = 0.98
+enter_ratio = 1.02
+max_price_gap = 0.15
+candidates = 10
+
+[strategy]
+risky = ["CSPX", "EIMI", "IDTL", "IGLN"]
+safe = "IB01"
+top_n = 2
+mom_lookback = 252
+mom_skip = 21
+sma_window = 200
+band = 0.05
+trend_buffer = 0.02
+mom_margin = 0.02
+
+[universe]
+CSPX = ["CSPX", "LSEETF", "USD", "CSPX.L"]
+EIMI = ["EIMI", "LSEETF", "USD", "EIMI.L"]
+IDTL = ["IDTL", "LSEETF", "USD", "IDTL.L"]
+IGLN = ["IGLN", "LSEETF", "USD", "IGLN.L"]
+IB01 = ["IB01", "LSEETF", "USD", "IB01.L"]
+
+[proxy]
+CSPX = "SPY"
+EIMI = "EEM"
+IDTL = "TLT"
+IGLN = "GLD"
+IB01 = "BIL"
+
+[alerts]
+summary_modes = ["execute", "dry"]

@@ -1,0 +1,36 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Environment / caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Runtime output (logs contain the account ID)
+logs/
+*.log
+journal.jsonl
+state/
+data_cache/
+backtest.png
+reports/
+state_eventbot/
+data/
+
+# Run-mode switches
+DRYRUN
+STOP
+
+*credentials*
+*.pem
+*.key
+*.jks
+*.p12
+*.pfx
+.coverage
+htmlcov/

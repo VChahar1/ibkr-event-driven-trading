@@ -1,0 +1,45 @@
+[project]
+name = "ibkr-event-driven-trading"
+version = "0.1.0"
+description = "Kafka and Redis event-driven IBKR paper-trading system"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+extend-exclude = [".venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+
+[tool.ruff.lint.per-file-ignores]
+"prereg_test.py" = ["E501"]
+"audit/*.py" = ["E501", "E741"]
+"scripts/*.py" = ["E402"]
+
+[tool.mypy]
+python_version = "3.11"
+disallow_untyped_defs = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+no_implicit_optional = true
+exclude = ["^\\.venv/"]
+
+[[tool.mypy.overrides]]
+module = ["yfinance.*", "matplotlib.*", "pandas.*", "aiokafka.*", "pyarrow.*", "duckdb.*", "fakeredis.*", "eventkit.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["tests.*"]
+disallow_untyped_defs = false
+check_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q -m 'not integration and not ib_paper'"
+asyncio_mode = "auto"
+markers = [
+    "integration: needs real Kafka and Redis (make up)",
+    "ib_paper: read-only against the paper IB Gateway; places no orders",
+]

@@ -1,0 +1,30 @@
+{
+  "offline": {
+    "passed": 520,
+    "skipped": 2,
+    "failed": 0,
+    "skip_reasons": [
+      "no main branch in this checkout",
+      "no real IB_ACCOUNT in .env to check against"
+    ],
+    "passed_by_group": {
+      "Adapter and guards": 140,
+      "Bus, schema, config": 73,
+      "Ledger, record, replay": 71,
+      "Legacy strategy/tools": 160,
+      "Strategy and status": 76
+    }
+  },
+  "integration": {
+    "passed": 4,
+    "skipped": 0,
+    "failed": 0,
+    "skip_reasons": [],
+    "passed_by_group": {
+      "Legacy strategy/tools": 4
+    }
+  },
+  "ib_gateway_tests": "Not run; no IB connection or real order was made.",
+  "performance": "No throughput, latency or profitability benchmark was run.",
+  "integration_environment": "Disposable loopback Kafka and Redis containers; separate test endpoints."
+}
