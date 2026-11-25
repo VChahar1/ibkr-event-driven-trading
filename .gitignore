@@ -34,3 +34,5 @@ STOP
 *.pfx
 .coverage
 htmlcov/
+integration-results.xml
+.venv
