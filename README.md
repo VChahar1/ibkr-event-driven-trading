@@ -2,7 +2,7 @@
 
 Coordinate a paper-trading gateway, strategy, reconciliation and recording through Kafka and Redis.
 
-**Four real-Kafka integration tests passed in the publication check.** Offline fault and recovery tests use fake broker/state services; no real broker orders or performance benchmark were run.
+**521 offline tests and seven real Kafka/Redis integration checks passed.** One offline credential-dependent check skips without a private `.env`; publication separately scans against the private identifier.
 
 ![Recorded offline test outcomes](assets/test-results.png)
 

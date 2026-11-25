@@ -19,7 +19,7 @@ function base() {
     spikecolor: css('muted'), spikedash: 'solid', automargin: true};
   return {paper_bgcolor: css('surface-1'), plot_bgcolor: css('surface-1'),
     font: {family: 'system-ui, -apple-system, "Segoe UI", sans-serif', color: css('text-secondary'), size: 12},
-    margin: {l: 48, r: 16, t: 36, b: 32}   /* top band holds the toolbar */, xaxis: axis, yaxis: {...axis, showspikes: false},
+    margin: {l: 48, r: 16, t: 36, b: 32}                                   , xaxis: axis, yaxis: {...axis, showspikes: false},
     legend: {orientation: 'h', x: 0, y: 1.02, yanchor: 'bottom', font: {color: css('text-secondary')}},
     hoverlabel: {bgcolor: css('surface-1'), bordercolor: css('border'), font: {color: css('text-primary')}}};
 }
