@@ -2,13 +2,8 @@
 Description=IBKR stock bot: Mon-Fri 10:30 and 15:00 New York time
 
 [Timer]
-# US stocks: 10:30 is the main run (after the opening auction settles); 15:00 is a retry
-# if the first run failed before deciding. A second run on the same day is downgraded to
-# a dry run (state/decided-stocks-YYYYMMDD.json), so double-firing can never trade twice.
-# New York time zone, so the US/EU daylight-saving mismatch weeks are handled.
 OnCalendar=Mon..Fri *-*-* 10:30:00 America/New_York
 OnCalendar=Mon..Fri *-*-* 15:00:00 America/New_York
-# Catch up once after the machine was off/asleep; the bot skips if the market is closed.
 Persistent=true
 
 [Install]

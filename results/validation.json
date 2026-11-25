@@ -1,27 +1,27 @@
 {
   "offline": {
-    "passed": 520,
-    "skipped": 2,
+    "passed": 521,
+    "skipped": 1,
     "failed": 0,
     "skip_reasons": [
-      "no main branch in this checkout",
       "no real IB_ACCOUNT in .env to check against"
     ],
     "passed_by_group": {
       "Adapter and guards": 140,
-      "Bus, schema, config": 73,
+      "Bus, schema, config": 74,
       "Ledger, record, replay": 71,
       "Legacy strategy/tools": 160,
       "Strategy and status": 76
     }
   },
   "integration": {
-    "passed": 4,
+    "passed": 7,
     "skipped": 0,
     "failed": 0,
     "skip_reasons": [],
     "passed_by_group": {
-      "Legacy strategy/tools": 4
+      "Real Kafka bus": 4,
+      "Real Redis coordination": 3
     }
   },
   "ib_gateway_tests": "Not run; no IB connection or real order was made.",
